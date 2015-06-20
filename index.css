@@ -1,0 +1,149 @@
+.logo
+{
+	background: url('proj/img/prog2.jpg') fixed;
+	background-size: cover;
+	height: 600px;
+	color:white;
+	text-shadow:2px 3px black;
+	text-transform: uppercase;
+	padding-top: 150px;
+  	padding-bottom: 15px;
+	
+
+}
+.logo h1
+{
+	display: inline;
+	font-family: verdana;
+	font-size: 70px;
+	font-weight:bold;
+}
+.logo p
+{
+	  padding-top: 10px;
+	  font-size: 30px;
+}
+.ico
+{
+	background: url('proj/img/icon.jpg') fixed no-repeat;
+
+	width:200px;
+	height:200px; 
+}
+
+.nave
+{
+	position: static;
+	  padding: 10px;
+	  z-index: 1;
+}
+.brand
+{	font-family: arial black;
+	text-transform: uppercase;
+	padding-left: 35px;
+ 	padding-right: 35px;
+}
+.navbar-nav>li>a
+{
+	  padding-right: 50px;
+  padding-left: 50px;
+}
+.ace hr
+{
+	width: 81px;
+	height: 2px;
+	background-color: red;
+
+}
+.ace h1
+{
+font-size: 30px;
+font-family: verdana;
+	text-align: center;
+  color:rgb(119, 119, 119);
+  text-shadow:1px 1px white;
+  padding-top: 10px;
+  padding-bottom: 14px;
+}
+.cool
+{
+	padding: 5px;
+	max-height: 300px;
+}
+.row
+{
+ padding: 10px;
+ }
+.cool p
+{
+	 color:rgb(119, 119, 119);
+	padding: 35px;
+	font-family: verdana;
+    font-weight: bolder;
+}
+.abtme
+{
+	margin-top:-70px;
+ color:rgb(119, 119, 119);
+	padding: 35px;
+	font-family: verdana;
+    font-weight: bolder;	
+}
+.hobby button
+{
+	max-width: 165px;
+  padding: 5px;
+  }
+  .hobby span
+  {
+  	padding: 5px;
+  }
+  .hobby
+  {
+  	  margin-bottom: 10px;
+  }
+
+  .pd
+{
+	padding-top: 25px;
+	padding-right: 10px;
+background: url('proj/img/prog4.jpg') fixed;
+background-size: cover;
+height: 600px;
+}
+
+.greytext
+{
+ color:rgb(119, 119, 119);
+padding: 5px;
+	font-family: sans-serif;
+    font-weight: bold;	
+}
+
+
+.icon
+{
+	color: white;
+padding-top: 120px;
+padding-left: 10px;
+}
+.proj
+{
+	font-weight: bold;
+	padding-top: 5px;
+	color: white;
+	font-family: georgia;
+	text-transform: lowercase;
+text-shadow: 1px 2px black;
+}
+.proj p
+{
+	font-size: 20px;
+}
+.quote
+{
+	background: url('quote.jpg') fixed;
+	background-size: cover;
+	height: 125px;
+
+}
