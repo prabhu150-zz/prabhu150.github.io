@@ -1,6 +1,6 @@
-.logo
+.logo-back
 {
-	background: url('proj/img/prog2.jpg') fixed;
+	background: url('proj/img/lap.jpg') fixed;
 	background-size: cover;
 	height: 600px;
 	color:white;
@@ -8,17 +8,15 @@
 	text-transform: uppercase;
 	padding-top: 150px;
   	padding-bottom: 15px;
-	
-
 }
-.logo h1
+.logo-back h1
 {
 	display: inline;
-	font-family: verdana;
+	font-family: georgia;
 	font-size: 70px;
 	font-weight:bold;
 }
-.logo p
+.logo-back p
 {
 	  padding-top: 10px;
 	  font-size: 30px;
@@ -38,10 +36,15 @@
 	  z-index: 1;
 }
 .brand
-{	font-family: arial black;
-	text-transform: uppercase;
-	padding-left: 35px;
- 	padding-right: 35px;
+{	
+	padding-top: 5px;
+  font-family: georgia;
+  text-transform: uppercase;
+  padding-left: 265px;
+  padding-right: 265px;
+  font-weight: bolder;
+  font-size: larger;
+  text-shadow: 1px 1px black;
 }
 .navbar-nav>li>a
 {
@@ -83,16 +86,18 @@ font-family: verdana;
 }
 .abtme
 {
-	margin-top:-70px;
- color:rgb(119, 119, 119);
-	padding: 35px;
-	font-family: verdana;
-    font-weight: bolder;	
+	  color: rgb(119, 119, 119);
+  padding: 0px;
+  font-family: sans-serif;
+  font-weight: bolder;
 }
 .hobby button
 {
-	max-width: 165px;
+max-width: 170px;
+max-height: 200px;
+width: 165px;
   padding: 5px;
+  height: 150px;
   }
   .hobby span
   {
@@ -130,20 +135,337 @@ padding-left: 10px;
 .proj
 {
 	font-weight: bold;
-	padding-top: 5px;
-	color: white;
-	font-family: georgia;
-	text-transform: lowercase;
-text-shadow: 1px 2px black;
+  padding-top: 115px;
+  color: white;
+  font-family: georgia;
+  text-shadow: 3px 2px red
 }
 .proj p
 {
 	font-size: 20px;
 }
+
+.btn-circle {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 35px;
+  line-height: 1.42;
+  border-radius: 80px;
+  text-shadow: 2px 2px grey;
+  border: 2.5px solid grey;
+}
+.logo
+{
+width: 65px;
+height: 65px;
+
+}
+.navbar-brand
+{
+	float:none;
+	  margin-left: 30px;
+}
+.icon
+{
+
+width: 120px;
+  height: 120px;
+  text-align: center;
+  padding: 20px;
+  font-size: 50px;
+  line-height: 1.42;
+  border-radius: 80px;
+  text-shadow: 2px 2px grey;
+  border: 4.5px solid rgb(42, 18, 18);
+  color: red;
+  background-color: white;
+}
+
+
+h1, h2, h3 {
+  font-weight: 300;
+}
+
+.timer
+{
+	padding: 1em;
+}
+
+.timeline {
+  position: relative;
+  overflow: auto;
+}
+.timeline:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 5px;
+  background: #dddddd;
+  left: 0;
+}
+.timeline h2 {
+  background: #dddddd;
+  max-width: 6em;
+  margin: 0 auto 1em;
+  padding: 0.5em;
+  text-align: center;
+  position: relative;
+  clear: both;
+  }
+  
+.timeline ul {
+  list-style: none;
+  padding: 0 0 0 1em;
+  z-index: 1;
+}
+.timeline li {
+  background: #dddddd;
+  padding: 1em;
+  margin-bottom: 1em;
+  position: relative;
+}
+.timeline li:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 1em solid #dddddd;
+  border-left: 1em solid transparent;
+  position: absolute;
+  left: -1em;
+  top: 0;
+}
+.timeline h3 {
+  margin-top: 0;
+}
+.timeline time {
+  font-style: italic;
+}
+
+@media screen and (min-width: 40em) {
+  .timer {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .timeline:before {
+    left: 50%;
+  }
+  .timeline ul {
+    padding-left: 0;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .timeline li {
+    width: 42%;
+  }
+  .timeline li:nth-child(even) {
+    float: right;
+    margin-top: 2em;
+  }
+  .timeline li:nth-child(odd) {
+    float: left;
+  }
+  .timeline li:nth-child(odd):before {
+    border-top: 1em solid #dddddd;
+    border-right: 1em solid transparent;
+    right: -1em;
+    left: auto;
+  }
+  .timeline li:nth-of-type(2n+1) {
+    clear: both;
+  }
+}
+#feedback-page {
+  text-align: center;
+}
+
+#form-main {
+  width: 100%;
+  float: left;
+  padding-top: 0px;
+}
+
+#form-div {
+  background-color: rgba(72, 72, 72, 0.4);
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  width: 450px;
+  float: left;
+  left: 50%;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -260px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+  color: #3c3c3c;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+
+.feedback-input:focus {
+  background: #fff;
+  box-shadow: 0;
+  border: 3px solid #3498db;
+  color: #3498db;
+  outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused {
+  color: #30aed6;
+  border: #30aed6 solid 3px;
+}
+/* Icons ---------------------------------- */
+
+#name {
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#name:focus {
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-size: 30px 30px;
+  background-position: 8px 5px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#email {
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#email:focus {
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#comment {
+  background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+  background-color: white;
+}
+
+#button-blue {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  float: left;
+  width: 100%;
+  border: #fbfbfb solid 4px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  font-size: 24px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+
+#button-blue:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #0493bd;
+}
+
+.submit:hover {
+  color: #3498db;
+}
+
+.ease {
+  width: 0px;
+  height: 74px;
+  background-color: #fbfbfb;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  -ms-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.submit:hover .ease {
+  width: 100%;
+  background-color: white;
+}
+
+@media only screen and (max-width: 580px) {
+  #form-div {
+    left: 3%;
+    margin-right: 3%;
+    width: 88%;
+    margin-left: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+.detail
+{
+	width: 100%;
+	background:url('proj/img/back.jpg') no-repeat;
+  background-size: cover;
+  height:600px;
+}
+.proc
+{
+	  width: 1130px;
+  background: url('proj/img/process.jpg') no-repeat;
+  background-size: cover;
+  height: 609px;
+}
 .quote
 {
-	background: url('quote.jpg') fixed;
-	background-size: cover;
-	height: 125px;
 
+  background: url('proj/img/quote.jpg') no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+.quote1
+{
+
+  background: url('proj/img/quote1.jpg');
+  background-size: contain;
+  height: 375px;
+  
+  background-repeat-x: inherit;
 }
